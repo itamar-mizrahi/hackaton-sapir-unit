@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+.buttonsContainer{
+   display: flex;
+}
+
+.navigationButtons{
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    position: relative;
+    left: 1650px;
+    margin: 10px;
+}
+#image{
+    position: relative;
+    left: 1650px;
+    top: -180px;
+}

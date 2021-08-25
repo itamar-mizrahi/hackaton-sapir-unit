@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(128, 128, 128);
+
+
+}
+}
+.buttonsContainer{
+   display: flex;
+}
+
+.navigationButtons{
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    position: relative;
+    margin: 10px;
+}
+
+.applicationDetails{
+
+}
+#image{
+    position: relative; 
+}

@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(128, 128, 128);
+}
+
+.title{
+    margin: auto;
+    padding-bottom: 20px; 
+    letter-spacing: 5px;
+    text-align: center;
+}
+.navbar 
+{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    left:50%;top:0;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;        
+}
+.navbar a 
+{
+    color: black;
+    padding: 10px 27px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+  
+}
+.navbar a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: rgb(21, 190, 190);
+}
+
+.main {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    background: #fff;
+    text-align: center;
+    font-size:16px;
+    font-family: sans-serif;
+    float: left;
+    margin:15px;
+    width: 10%;
+    height: 15%;
+
+    /*flex part*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*width: 10%;*/
+    padding: 5%;
+}
+
+.main:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 246, 243, 0.6);
+}
+
+.position {
+    margin: auto;
+    position: absolute;
+    margin-left: 10%;
+}
+.deletebutton {
+    
+}
